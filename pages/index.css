@@ -1,13 +1,17 @@
 @import url("../vendor/normalize.css");
+@import url("../blocks/rotation.css");
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/two-columns.css");
+@import url("../blocks/cards.css");
 @import url("../blocks/techniques.css");
 @import url("../blocks/video.css");
 @import url("../blocks/oakley.css");
 @import url("../blocks/feynman.css");
 @import url("../blocks/digits.css");
 @import url("../blocks/kahn.css");
+@import url("../blocks/kaufman.css");
+@import url("../blocks/table.css");
 @import url("../blocks/resources.css");
 @import url("../blocks/footer.css");
 
@@ -37,70 +41,4 @@
 .section-subtitle_theme_dark {
   color: white;
   margin-top: 20px;
-}
-
-.table {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 1100px;
-  margin: 0;
-  padding: 0;
-}
-
-.table_theme_dark {
-  margin: 0 auto;
-  margin-bottom: 90px;
-}
-
-.digits__table {
-  margin: 60px auto 100px;
-  row-gap: 60px;
-}
-
-.table__heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.table__heading_theme_dark {
-  margin-bottom: 20px;
-}
-
-.table__cell {
-  width: 250px;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  z-index: 1;
-  margin-top: 80px;
-}
-
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
-.table__text_theme_dark {
-  margin-top: 0;
-}
-
-.kaufman {
-  background-color: #1f1f1f;
-  position: relative;
-  overflow: hidden;
-}
-
-.kaufman__triangle {
-  position: absolute;
-  right: -124px;
-  top: 0;
 }

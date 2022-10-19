@@ -1,0 +1,33 @@
+.cards {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  margin: 0 auto;
+  column-gap: 100px;
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 60px 0 43px;
+}
+
+.cards__title {
+  text-align: center;
+  margin: 0;
+}
+
+.cards__description {
+  text-align: center;
+  margin: 0;
+}

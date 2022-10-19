@@ -5,3 +5,8 @@
 .digits__subtitle {
   margin: 0 auto;
 }
+
+.digits__table {
+  margin: 60px auto 100px;
+  row-gap: 60px;
+}

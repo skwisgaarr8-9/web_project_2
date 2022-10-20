@@ -3,19 +3,11 @@
 }
 
 .techniques__title {
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  width: 60%;
   margin: 0 auto;
-  text-align: center;
 }
 
 .techniques__subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
   width: 60%;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto 0;
 }

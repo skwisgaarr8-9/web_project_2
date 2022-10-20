@@ -1,5 +1,10 @@
+.digits {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .digits__title {
-  margin: 100px auto 20px;
+  margin: 0 auto 20px;
 }
 
 .digits__subtitle {
@@ -7,6 +12,6 @@
 }
 
 .digits__table {
-  margin: 60px auto 100px;
+  margin: 60px auto 0;
   row-gap: 60px;
 }

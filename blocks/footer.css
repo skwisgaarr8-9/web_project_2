@@ -42,6 +42,8 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  display: flex;
+  align-items: center;
 }
 
 .footer__author {
